@@ -1,6 +1,6 @@
 # tf2-linux-fonts
 
-In late 2024, TF2 decided to remove the Noto Sans CJK fonts it provided,
+In late 2024, TF2 decided to remove the Noto Sans CJK and emoji fonts it provided,
 breaking everything that uses extended Unicode in the process.
 
 A mitigation for this is to override the copy of the game's Noto Sans Thai.
@@ -18,6 +18,14 @@ A mitigation for this is to override the copy of the game's Noto Sans Thai.
 5. Launch your game.
 
 ## Variants.
+
+### UnifontEX
+
+Highest coverage a single TTF/OTF file can cover. (nearly 65k)
+
+Ugliest of them all.
+
+Licensed under the GPLv2.
 
 ### Sun-Ext-A
 
