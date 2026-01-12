@@ -45,4 +45,8 @@ of missing glyphs in some scenarios
 
 While UnifontEX provides the highest possible amount of
 glyphs that a single font file can have, it is also the
-most visually ugly, being based upon a pixel font.
+most visually ugly, being based upon a bitmap/pixel font.
+
+## Does this fix the emoji issue?
+
+Not really, see https://github.com/ValveSoftware/Source-1-Games/issues/7026 for more details.
