@@ -3,6 +3,13 @@
 In late 2024, TF2 decided to remove the Noto Sans CJK and emoji fonts it provided,
 breaking everything that uses extended Unicode in the process.
 
+While the CJK fonts were later fixed by using the system copy of Noto Sans CJK,
+if installed. 
+
+However the emoji fonts still are missing as of writing, and
+some Unicode glyphs do not have proper coverage by the fonts
+used by the game.
+
 A mitigation for this is to override the copy of the game's Noto Sans Thai.
 
 ## Installation.
@@ -19,24 +26,23 @@ A mitigation for this is to override the copy of the game's Noto Sans Thai.
 
 ## Variants.
 
-### UnifontEX
+| Font           | License               | Coverage  |             |                      |                  |
+|----------------|-----------------------|-----------|-------------|----------------------|------------------|
+|                |                       | Overall   | Lenny Faces | Geometric Shapes [1] | Misc. Glyphs [2] |
+| UnifontEX      | GPLv2                 | Excellent | Perfect     | Perfect              | Good             |
+| BabelStone Han | Arphic Public License | Good      | Good        | Good                 | OK               |
+| Sun-Ext-A      | Freeware              | Good      | OK          | Good                 | OK               |
+| Go Noto        | Unlicense             | OK        | Mediocre    | OK                   | Mediocre         |
 
-Highest coverage a single TTF/OTF file can cover. (nearly 65k)
+[1] Geometric Shapes include: `○●▰▱■□`
 
-Ugliest of them all.
+[2] Misc. glyphs are used mainly on community servers and gamemodes, for example: Zombie Riot and Mann in the Machine
 
-Licensed under the GPLv2.
+[3] OK/Mediocre coverage means that you may see a large amount
+of missing glyphs in some scenarios
 
-### Sun-Ext-A
+## Why multiple variants?
 
-Good coverage with around 50 thousand glyphs.
-
-Slightly visually ugly.
-
-Freeware.
-
-### Go Noto (CJK Core)
-
-Less coverage with around 44 thousand glyphs, missing glyphs needed for lenny faces and other minor things.
-
-Licensed under the The Unlicense.
+While UnifontEX provides the highest possible amount of
+glyphs that a single font file can have, it is also the
+most visually ugly, being based upon a pixel font.
