@@ -3,8 +3,7 @@
 In early 2025, TF2 decided to remove the Noto Sans CJK and emoji fonts it provided,
 breaking everything that uses extended Unicode in the process.
 
-While the CJK fonts were later fixed by using the system copy of Noto Sans CJK,
-if installed. 
+The CJK fonts were fixed by a copy of it being included once more.
 
 However the emoji fonts still are missing as of writing, and
 some Unicode glyphs do not have proper coverage by the fonts
