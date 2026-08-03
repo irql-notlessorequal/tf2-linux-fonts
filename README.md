@@ -16,7 +16,7 @@ There are two ways to fix this.
 
 ### Partially
 
-You can use the `old-method` to override a font file in the game,
+You can use the `old-method` to override a single font file in the game,
 giving the game more glyph coverage.
 
 ### Fully
@@ -24,4 +24,4 @@ giving the game more glyph coverage.
 The `new-method` takes the work found in https://github.com/ValveSoftware/Source-1-Games/issues/7026
 and gets a much wider coverage of Unicode glyphs and Emojis working again.
 
-However this requires modifying your HUD, unlike the old method which involves replacing a single file.
+However this requires modifying your HUD, unlike the old method.
